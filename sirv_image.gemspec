@@ -1,16 +1,18 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "sirv_image"
-  spec.version       = "1.0.0"
+  spec.name          = "sirv-image"
+  spec.version       = "2.0.0"
   spec.authors       = ["Sirv"]
   spec.email         = ["support@sirv.com"]
 
-  spec.summary       = "Sirv SDK for building URLs and HTML tags for images, spins, videos, 3D models, and galleries"
-  spec.description   = "SDK for building Sirv CDN URLs and HTML viewer tags. " \
-                        "Supports responsive srcset generation, image/zoom/spin/video/model/gallery viewers, " \
-                        "nested parameter flattening, and Sirv JS script tag generation."
-  spec.homepage      = "https://sirv.com/help/articles/dynamic-imaging/"
+  spec.summary       = "Sirv image transformation Ruby SDK"
+  spec.description   = "Official Ruby SDK for the Sirv dynamic imaging API. This SDK provides a simple way to request any modified image (dimensions, format, quality, sharpen, crop, watermark etc.) using the 100+ image transformation options in Sirv's image optimization service."
+  spec.homepage      = "https://sirv.github.io/sirv-image-ruby/"
+  spec.metadata      = {
+    "source_code_uri" => "https://github.com/sirv/sirv-image-ruby",
+    "bug_tracker_uri" => "https://github.com/sirv/sirv-image-ruby/issues"
+  }
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
